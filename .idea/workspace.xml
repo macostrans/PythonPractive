@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76fb4c27-7442-48ba-ae3e-563e1ba28f0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExcelRefresh2/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExcelRefresh2/get_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExcelRefresh2/test_excel_refresh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/get_params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcelRefresh/test_excel_refresh.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExcelRefresh2/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="D:/Users/Kannan/Anaconda3/python.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -44,6 +47,11 @@
         <option name="myModuleName" value="SeleniumTest" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonProjects\SeleniumTest\ExcelRefresh2" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="test_excel_refresh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -58,7 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExcelRefresh/test_excel_refresh.py" />
+      <option name="SCRIPT_NAME" value="D:\PythonProjects\SeleniumTest\ExcelRefresh2\test_excel_refresh.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,13 +111,49 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="639" y="268" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1586346713647" />
-    <state x="301" y="72" key="SettingsEditor" timestamp="1586346761116">
+    <state width="1579" height="276" key="GridCell.Tab.0.bottom" timestamp="1586433546578">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1586346761116" />
-    <state x="501" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586343874046">
+    <state width="1579" height="276" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586433546578" />
+    <state width="1579" height="276" key="GridCell.Tab.0.center" timestamp="1586433546578">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="501" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586343874046" />
+    <state width="1579" height="276" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586433546578" />
+    <state width="1579" height="276" key="GridCell.Tab.0.left" timestamp="1586433546577">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586433546577" />
+    <state width="1579" height="276" key="GridCell.Tab.0.right" timestamp="1586433546578">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586433546578" />
+    <state width="1579" height="276" key="GridCell.Tab.1.bottom" timestamp="1586433546578">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586433546578" />
+    <state width="1579" height="276" key="GridCell.Tab.1.center" timestamp="1586433546578">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1586433546578" />
+    <state width="1579" height="276" key="GridCell.Tab.1.left" timestamp="1586433546578">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1586433546578" />
+    <state width="1579" height="276" key="GridCell.Tab.1.right" timestamp="1586433546578">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1586433546578" />
+    <state x="301" y="72" key="SettingsEditor" timestamp="1586425993135">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1586425993135" />
+    <state x="501" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586748357868">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="501" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586748357868" />
+    <state x="522" y="332" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586426295381">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="522" y="332" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1600.860@0.0.1600.860" timestamp="1586426295381" />
   </component>
 </project>
